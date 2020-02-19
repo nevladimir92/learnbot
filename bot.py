@@ -4,9 +4,6 @@ from telegram.ext import CommandHandler, Filters, MessageHandler, Updater
 
 import settings
 
-PROXY = {'proxy_url': 'socks5h://t1.learn.python.ru:1080',
-    'urllib3_proxy_kwargs': {'username': 'learn', 'password': 'python'}}
-
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level = logging.INFO,
